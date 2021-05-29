@@ -9,23 +9,31 @@
 
   <body>
     <div id="root">
-      <form id="input-form">
-        <input name="text" placeholder="new word" />
-        <code id="warnings" class="warning"></code>
-        <input type="button" value="add" />
-        <input type="button" value="remove" />
-      </form>
-        <br />
-      <!-- sort: -->
-      <select id="sort-type">
-        <option value="oldest">old -> new</option>
-        <option value="newest">new -> old</option>
-        <option value="a">a -> z</option>
-        <option value="z">z -> a</option>
-        <option value="shortest">short -> long</option>
-        <option value="longest">long -> short</option>
-      </select>
-      <div id="list-container"></div>
+      <div class="divClass" >
+        <form class="formClass" id="input-form">
+          <input name="text" placeholder="new word" />
+          <code id="warnings" class="warning"></code>
+          <input type="button" value="add" />
+          <input type="button" value="remove" />
+        </form>
+
+        <br /> <br />
+        <!-- sort: -->
+        <select class="selectClass" id="sort-type">
+          <option value="oldest">old -> new</option>
+          <option value="newest">new -> old</option>
+          <option value="a">a -> z</option>
+          <option value="z">z -> a</option>
+          <option value="shortest">short -> long</option>
+          <option value="longest">long -> short</option>
+        </select>
+
+            <div class="containerClass" id="list-container"></div>
+
+      </div>
+      
+    
+      
     </div>
 
     <script type="module" src="./src/init/index.js"></script>
