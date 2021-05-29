@@ -1,5 +1,5 @@
-import { handleInputWord } from '../handlers/input-word.js';
+import { handleInputWord } from "../handlers/input-word.js";
 
 document
-  .getElementById('input-form')
-  .addEventListener('click', handleInputWord);
+  .getElementById("input-form")
+  .addEventListener("click", handleInputWord);

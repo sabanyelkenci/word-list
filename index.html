@@ -11,12 +11,12 @@
     <div id="root">
       <form id="input-form">
         <input name="text" placeholder="new word" />
+        <code id="warnings" class="warning"></code>
         <input type="button" value="add" />
         <input type="button" value="remove" />
       </form>
-      <code id="warnings" class="warning"></code>
-      <br />
-      sort:
+        <br />
+      <!-- sort: -->
       <select id="sort-type">
         <option value="oldest">old -> new</option>
         <option value="newest">new -> old</option>
@@ -31,3 +31,5 @@
     <script type="module" src="./src/init/index.js"></script>
   </body>
 </html>
+
+

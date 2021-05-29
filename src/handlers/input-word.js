@@ -71,7 +71,7 @@ export const handleInputWord = (event) => {
     } else {
       thyWarning.textContent = `"${text}" is not in the list`;
       thyWarning.style.color = "red";
-      console.log (`${text} is not in the list`);
+      console.log(`${text} is not in the list`);
     }
   }
 
