@@ -1,4 +1,4 @@
-import { data } from "../ .js";
+import { data } from "../data.js";
 import { sortStrings } from "../logic/sort-strings.js";
 import { updateList } from "../procedures/update-list.js";
 
